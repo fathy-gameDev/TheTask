@@ -1,0 +1,104 @@
+
+body {
+    background-color: black;
+}
+
+@font-face {
+    src: url("SpaceQuest-yOY3.ttf");
+    font-family: Space;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.NavBar {
+    overflow: hidden;
+    background-color: #000000;
+    font-family: Space;
+    text-align: center;
+    padding: 10px;
+}
+
+.NavBar li {
+    display: inline-block;
+    padding: 5px;
+    text-align: center;
+}
+
+.NavBar li a {
+    color: white;
+    padding: 20px;
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+.NavBar li a:hover {
+    color: #ff1443fa;
+    border-left: 1px solid #ff1443fa;
+    border-right: 1px solid #ff1443fa;
+}
+
+.imgme {
+    background-color: black;
+    height: 400px;
+    background:
+        url(https://cdnb.artstation.com/p/assets/images/images/023/409/607/medium/fathy-baiomy-grendizer6.jpg?1579107683) scroll no-repeat 90% 50%;
+    background-size: 30%;
+    text-align: left;
+    padding: 80px;
+    color: white;
+    font-family: space;
+}
+
+.imgme p {
+    max-width: 400px;
+}
+
+.footer {
+    color: white;
+    padding: 10px;
+    font-family: Space;
+    font-size: 70%;
+    background-color: #e00d1f;
+    border-top: 10-px solid rgb(82, 5, 5);
+}
+
+.photos {
+    display: flexbox;
+    padding: 10px;
+    text-align: center;
+}
+
+.photos img {
+    width: 400px;
+    border: 5px solid rgba(0, 0, 0, 0.342);
+    border-radius: 5px;
+}
+
+.contact_us {
+    text-align: center;
+    color: black;
+}
+
+a {
+    color: rgb(255, 174, 0);
+    font-weight: normal;
+}
+
+.contact_us li {
+    color: white;
+    font-size: large;
+    text-align: left;
+    display: block;
+    padding: 20px;
+}
+
+.contact_us h2 {
+    color: rgb(255, 174, 0);
+    text-align: left;
+    padding: 20px;
+    font-size: 72px;
+    font-weight: normal;
+}
